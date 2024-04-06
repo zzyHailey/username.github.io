@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile form</title>
+    <link rel="stylesheet" href="profileForm.css" />
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Profile Form</h1>
+        <form id="profile-form" action="#">
+            
+            <div class="input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            <div class="input-container">
+                <p>Pronouns:</p>
+                <input type="radio" id="she/her" name="radio" />
+                <label for="she/her">She/Her</label>
+                <input type="radio" id="he/him" name="radio" />
+                <label for="he/him">He/Him</label>
+                <input type="radio" id="untell" name="radio" />
+                <label for="untell">Wouldn't like to say.</label>
+            </div>
+            <div class="input-container">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age"  />
+            </div>
+            <div class="input-container">
+                <label for="hobby">Hobbies:</label>
+                <input type="text" id="hobby" name="hobby" />
+            </div>
+            <div class="input-container">
+                <label for="bio">Share your more experience:</label><br>
+                <textarea id="bio" name="bio" rows="10"></textarea>
+            </div>
+            <div class="button-container">
+                <input id="submit-button" type="submit" value="submit" />
+            </div>
+
+            <div id="messagePanel"></div>
+        </form>
+    </div>
+    <script src="profileForm.js"></script>
+</body>
+
+</html>

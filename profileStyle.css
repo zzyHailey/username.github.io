@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: rgb(249, 223, 193);
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+    header>h1 {
+            font-size: 90pt;
+            color: rgb(177, 74, 23);
+            text-align: center;
+        }
+    
+    
+    
+        main ul {
+            text-align: left;
+        }
+    
+    
+        main li>strong {
+            color: rgba(186, 86, 36, 1);
+    
+        }
+    
+        main li {
+            color: rgb(87, 39, 62);
+        }
+    
+        footer button {
+            color: rgba(186, 86, 36, 1);
+            text-align: left;
+            font-size: 30px;
+        }
+    
+        .scheme1 {
+            background-color: #8ba8b0;
+            color: white;
+        }
+    
+    
+        .scheme2 {
+            background-color: #dec46a;
+            color: white;
+        }
+}
+
+/* Styles for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    header>h1 {
+            font-size: 90pt;
+            color: rgb(177, 74, 23);
+            text-align: center;
+        }
+    
+        main li>strong {
+            color: rgba(186, 86, 36, 1);
+    
+        }
+    
+        main li {
+            color: rgb(87, 39, 62);
+        }
+    
+        footer button {
+            color: rgba(186, 86, 36, 1);
+            text-align: left;
+            font-size: 30px;
+        }
+    
+        .scheme1 {
+            background-color: #8ba8b0;
+            color: white;
+        }
+    
+    
+        .scheme2 {
+            background-color: #dec46a;
+            color: white;
+        }
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) {
+    header>h1 {
+            font-size: 90pt;
+            color: rgb(177, 74, 23);
+            text-align: center;
+        }
+    
+        main li>strong {
+            color: rgba(186, 86, 36, 1);
+    
+        }
+    
+        main li {
+            color: rgb(87, 39, 62);
+        }
+    
+        footer button {
+            color: rgba(186, 86, 36, 1);
+            text-align: left;
+            font-size: 30px;
+        }
+    
+        .scheme1 {
+            background-color: #8ba8b0;
+            color: white;
+        }
+    
+    
+        .scheme2 {
+            background-color: #dec46a;
+            color: white;
+        }
+}
+
